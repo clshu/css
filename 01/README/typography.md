@@ -1,8 +1,13 @@
+# CSS Typography
+
+- ## font-size is inherited
+- ## text-decoration
+- ## tex-transform
+- ## other text properties
+- ## font-family: known ones suggested by vscode or external
+
+```
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-/* 
-Typography is the way that text
-is arranged and presented
- */
 
 body {
   padding: 10%;
@@ -22,3 +27,4 @@ p {
   /* font-style: oblique; */
   font-family: Arial, Helvetica, sans-serif;
 }
+```
