@@ -1,16 +1,17 @@
-h1 {
-  border: 2px dashed red;
-  width: 50%;
-  font-size: 3rem;
-  /* half of 3rem. em used for margin or padding */
-  padding: 0.5em;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-main {
-  font-size: 2rem;
-}
-body {
-  min-height: 100vh;
-}
-p {
+.container {
+  border: 2px double red;
   font-size: 1.5rem;
+  margin: 1.5em;
+  /* margin-top: 1.5em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em; */
+  padding: 1.5em;
+  outline: 2px solid blue;
+  outline-offset: -20px;
 }
