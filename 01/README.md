@@ -27,3 +27,50 @@
 - ## Form elements, border are not inherited.
 - ### button, input, select
 - ## [Specifity Calculator](https://specificity.keegan.st/)
+
+```
+* universal selector */
+/* * {
+  font-family: monospace;
+} */
+
+html {
+  font-family: monospace;
+}
+
+/* !important overide everything. But don't use it. */
+main {
+  color: green;
+}
+/* Element Selector */
+
+/* body {
+  font-size: 22px;
+} */
+
+/* h1 h2 is neted, h1, h2 are all selected */
+h1,
+h2 {
+  color: blue;
+}
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+p {
+  color: purple;
+}
+/* class selector. Starting with . */
+.gray-text {
+  color: gray;
+}
+
+/* id selector. Starting with # */
+#second {
+  font-style: italic;
+}
+
+```
+
+- ## [coolors.co](https://coolors.co/contrast-checker/333333-ffefd5) to check contrast

@@ -1,41 +1,11 @@
-/* universal selector */
-/* * {
-  font-family: monospace;
-} */
-
-html {
-  font-family: monospace;
-}
-
-/* !important overide everything. But don't use it. */
-main {
-  color: green;
-}
-/* Element Selector */
-
-/* body {
+body {
   font-size: 22px;
-} */
-
-/* h1 h2 is neted, h1, h2 are all selected */
-h1,
-h2 {
-  color: blue;
-}
-.highlight {
-  text-transform: uppercase;
-  background-color: gold;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: papayawhip;
+  color: rgb(0, 0, 255);
 }
 
 p {
-  color: purple;
-}
-/* class selector. Starting with . */
-.gray-text {
-  color: gray;
-}
-
-/* id selector. Starting with # */
-#second {
-  font-style: italic;
+  color: hsla(0, 0%, 50%, 0.689);
 }
