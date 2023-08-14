@@ -30,3 +30,16 @@ body {
   break-inside: avoid;
   /* break-before: column; */
 }
+/* .quote vs  .column .quote */
+.column .quote {
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  column-span: all;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
