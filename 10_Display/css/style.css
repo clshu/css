@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* block element
+100% width of the given container 
+stack on top each other */
+
+/* main {
+  background-color: aqua;
+  width: 50%;
+} */
+/* p {
+  background: lightgray;
+} */
+
+/* span inline element  it occupies the width of itself only
+Use inline-blcok to assign height to the newly formed block */
+/* .opposite {
+  display: inline-block;
+  background-color: #333;
+  color: whitesmoke;
+  margin-top: 100px;
+  height: 200px;
+  padding: 04rem;
+} */
+
+/* ul is block element a is block element */
+ul {
+  list-style-type: none;
+  background-color: lightgray;
+  padding-left: 0;
+  text-align: right;
+  margin: 0;
+  background-color: #000;
+}
+
+/* li is block */
+li {
+  display: inline-block;
+  margin-inline: 0.5rem;
+}
+
+/* a is inline */
+li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
